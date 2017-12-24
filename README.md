@@ -57,31 +57,32 @@ for city in unique_cities:
 #Just going to list the first 10 log outputs
 
 Processing Record 1 of 585 | abu kamal
-
 http://api.openweathermap.org/data/2.5/weather?appid=4331a4f5738542dd5a6354671e2eb977&units=imperial&q=abu kamal
 
 Processing Record 2 of 585 | acapulco
-
 http://api.openweathermap.org/data/2.5/weather?appid=4331a4f5738542dd5a6354671e2eb977&units=imperial&q=acapulco
 
 Processing Record 3 of 585 | aden
 http://api.openweathermap.org/data/2.5/weather?appid=4331a4f5738542dd5a6354671e2eb977&units=imperial&q=aden
 
 Processing Record 4 of 585 | adrar
-
 http://api.openweathermap.org/data/2.5/weather?appid=4331a4f5738542dd5a6354671e2eb977&units=imperial&q=adrar
 
 Processing Record 5 of 585 | ahipara
-
 http://api.openweathermap.org/data/2.5/weather?appid=4331a4f5738542dd5a6354671e2eb977&units=imperial&q=ahipara
+
 Processing Record 6 of 585 | ainazi
 http://api.openweathermap.org/data/2.5/weather?appid=4331a4f5738542dd5a6354671e2eb977&units=imperial&q=ainazi
+
 Processing Record 7 of 585 | airai
 http://api.openweathermap.org/data/2.5/weather?appid=4331a4f5738542dd5a6354671e2eb977&units=imperial&q=airai
+
 Processing Record 8 of 585 | aklavik
 http://api.openweathermap.org/data/2.5/weather?appid=4331a4f5738542dd5a6354671e2eb977&units=imperial&q=aklavik
+
 Processing Record 9 of 585 | aksarayskiy
 http://api.openweathermap.org/data/2.5/weather?appid=4331a4f5738542dd5a6354671e2eb977&units=imperial&q=aksarayskiy
+
 Processing Record 10 of 585 | aksu
 http://api.openweathermap.org/data/2.5/weather?appid=4331a4f5738542dd5a6354671e2eb977&units=imperial&q=aksu
 
