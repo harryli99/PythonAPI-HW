@@ -1,4 +1,10 @@
+Python API HW
 
+- In this homework we use the openweathermap API to find the relationshiop between latitude and temperature, windspeed, cloudiness, and humidity
+- 3 observations noticed include:
+1. Temperature decreases as cities move away from the equator
+2. Most cities have a humitity level between 60% to 100%
+3. Most cities have a wind speed that is between 0 to 15 mph
 
 ```
 import matplotlib.pyplot as plt
@@ -67,31 +73,6 @@ humid_data = [data.get("main").get("humidity") for data in weather_data]
 cloudy_data = [data.get("clouds").get("all") for data in weather_data] 
 wind_data = [data.get("wind").get("speed") for data in weather_data] 
 ```
-
-
-    ---------------------------------------------------------------------------
-
-    AttributeError                            Traceback (most recent call last)
-
-    <ipython-input-90-54cb8c00a169> in <module>()
-          1 #Retrieve the data from API for each city
-    ----> 2 lat_data = [data.get("coord").get("lat") for data in weather_data]
-          3 lng_data = [data.get("coord").get("lon") for data in weather_data]
-          4 temp_data = [data.get("main").get("temp") for data in weather_data]
-          5 humid_data = [data.get("main").get("humidity") for data in weather_data]
-    
-
-    <ipython-input-90-54cb8c00a169> in <listcomp>(.0)
-          1 #Retrieve the data from API for each city
-    ----> 2 lat_data = [data.get("coord").get("lat") for data in weather_data]
-          3 lng_data = [data.get("coord").get("lon") for data in weather_data]
-          4 temp_data = [data.get("main").get("temp") for data in weather_data]
-          5 humid_data = [data.get("main").get("humidity") for data in weather_data]
-    
-
-    AttributeError: 'NoneType' object has no attribute 'get'
-
-
 
 ```
 #Building DataFrame
